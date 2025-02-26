@@ -11,27 +11,23 @@ namespace Ported_FFC.Extensions
     {
         public bool JokesOnYou;
         public bool hasAdaptiveSizing;
-        public bool isBloodMage;
         public float adaptiveMovementSpeed;
         public float adaptiveGravity;
         public float healing;
         public float damageReduction;
         public int extendedMags;
         public int kingOfFools;
-        public int healthCost;
 
         public CharacterStatModifiersAdditionalData()
         {
             JokesOnYou = false;
             hasAdaptiveSizing = false;
-            isBloodMage = false;
             adaptiveMovementSpeed = 0f;
             adaptiveGravity = 0f;
             healing = 1;
             damageReduction = 0;
             extendedMags = 1;
             kingOfFools = 0;
-            healthCost = 0;
         }
     }
 
@@ -70,10 +66,9 @@ namespace Ported_FFC.Extensions
                 additionalData.adaptiveGravity = 0f;
                 additionalData.hasAdaptiveSizing = false;
                 additionalData.healing = 1;
+                additionalData.damageReduction = 0;
                 additionalData.extendedMags = 1;
                 additionalData.kingOfFools = 0;
-                additionalData.isBloodMage = false;
-                additionalData.healthCost = 0;
             }
         }
     }
