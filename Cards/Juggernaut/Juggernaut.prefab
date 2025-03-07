@@ -82,7 +82,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Gravity
   rarity: 0
-  cardArt: {fileID: 619565206731622318, guid: f4efde733a6dc1648b26872669c18298, type: 3}
+  cardArt: {fileID: 619565206731622318, guid: 231c2a0e64d9d98469020e407db3d8dc, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043437007509817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7f296c1282989945a651df867b5f4ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f80b35356e776d479e01efe1c3e63bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   JokesOnYou: 0
@@ -326,5 +326,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: 51f5d942d7cd9af48976b001e1cebd68,
+  fancyIcon: {fileID: 1790492772407996393, guid: 110b2f201a13c66409fac17c04540748,
     type: 3}

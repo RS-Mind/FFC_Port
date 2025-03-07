@@ -70,7 +70,7 @@ MonoBehaviour:
     bounces to spawn an extra bullet!
   cardStats: []
   rarity: 2
-  cardArt: {fileID: 445320440631683718, guid: dae3d7e3c8716484f8aa632f4892b913, type: 3}
+  cardArt: {fileID: 445320440631683718, guid: 7e7dae69ea4851543a8a9ecd71236052, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundCharacterSlowFreeze: {fileID: 0}
-  AddObjectToPlayer: {fileID: 2535759695287445568, guid: 0b492929a33c9f946ae83ccd29701b32,
+  AddObjectToPlayer: {fileID: 2535759695287445568, guid: 20dce965d166c8d4aa74d59fd9b79af1,
     type: 3}
   objectsAddedToPlayer: []
   sizeMultiplier: 1
@@ -292,7 +292,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043437007509817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7f296c1282989945a651df867b5f4ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f80b35356e776d479e01efe1c3e63bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   JokesOnYou: 0
@@ -315,5 +315,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: 6e04dcd7500161242909951fc960e9b2,
+  fancyIcon: {fileID: 1790492772407996393, guid: cfc33d9ad187834488aac8ca6726ea57,
     type: 3}

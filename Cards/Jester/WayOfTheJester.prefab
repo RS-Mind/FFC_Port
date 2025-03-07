@@ -81,7 +81,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Movement speed
   rarity: 1
-  cardArt: {fileID: 445320440631683718, guid: b2acd528b638fd8409c876d55df1bfd2, type: 3}
+  cardArt: {fileID: 445320440631683718, guid: e9f9e149c7df3c048b7460f0fb1ff14f, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundCharacterSlowFreeze: {fileID: 0}
-  AddObjectToPlayer: {fileID: 2535759695287445568, guid: 82c83464eb006604a847d2722191bf94,
+  AddObjectToPlayer: {fileID: 2535759695287445568, guid: 6d0aee7c884b9424195594f3f80509fb,
     type: 3}
   objectsAddedToPlayer: []
   sizeMultiplier: 1
@@ -306,5 +306,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: 58a1524c3a6b67640944474dce870171,
+  fancyIcon: {fileID: 1790492772407996393, guid: d76561ec8eb4847448ea811bdc45458e,
     type: 3}

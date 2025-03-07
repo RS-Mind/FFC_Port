@@ -92,7 +92,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Movement Speed
   rarity: 0
-  cardArt: {fileID: 1957582837464272927, guid: 83f823ba3db8c8d40b54a32c78637b83, type: 3}
+  cardArt: {fileID: 1957582837464272927, guid: 58b32a1845b2ef741982bfc673ac97e3, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
@@ -316,5 +316,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: 8df74240636e8c543a15a511352fd47b,
+  fancyIcon: {fileID: 1790492772407996393, guid: eb66296fc122adb43b65120ea8c996e3,
     type: 3}

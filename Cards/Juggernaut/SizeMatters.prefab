@@ -73,7 +73,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Health
   rarity: 1
-  cardArt: {fileID: 619565206731622318, guid: d03000db2f0a464438c530a834be6b62, type: 3}
+  cardArt: {fileID: 619565206731622318, guid: 33d1bc95df12ddf419eb79b014739e6a, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundCharacterSlowFreeze: {fileID: 0}
-  AddObjectToPlayer: {fileID: 2535759695287445568, guid: 9f377b86fc8317f4c8c41248d888d9c2,
+  AddObjectToPlayer: {fileID: 2535759695287445568, guid: 365befce291366a4b8c80a89cd8dd4b1,
     type: 3}
   objectsAddedToPlayer: []
   sizeMultiplier: 1
@@ -295,11 +295,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043437007509817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7f296c1282989945a651df867b5f4ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f80b35356e776d479e01efe1c3e63bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   JokesOnYou: 0
-  hasAdaptiveSizing: 1
+  hasAdaptiveSizing: 0
   adaptiveMovementSpeed: 0.35
   adaptiveGravity: 0.25
   healing: 1
@@ -318,5 +318,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: 84b53f35128fd8349a187c7417a77a70,
+  fancyIcon: {fileID: 1790492772407996393, guid: 7246c4e701fab4d408e11fdbb521a372,
     type: 3}

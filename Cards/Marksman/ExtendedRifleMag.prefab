@@ -81,7 +81,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Movement Cooldown
   rarity: 1
-  cardArt: {fileID: 1957582837464272927, guid: 8186d187039be604f9d6b89d55e53567, type: 3}
+  cardArt: {fileID: 1957582837464272927, guid: ee1aa5d5ec841c44b89ca6a2b3d07fa9, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043437007509817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7f296c1282989945a651df867b5f4ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f80b35356e776d479e01efe1c3e63bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   JokesOnYou: 0
@@ -325,5 +325,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: dea2c7885ebc66c439de35e9282822ec,
+  fancyIcon: {fileID: 1790492772407996393, guid: 80593042cc2fe9640ac805f6b7378c09,
     type: 3}

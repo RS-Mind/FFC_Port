@@ -73,7 +73,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Reload time
   rarity: 0
-  cardArt: {fileID: 1957582837464272927, guid: 32bbaf37a1e2918408d2f0628c567ae9, type: 3}
+  cardArt: {fileID: 1957582837464272927, guid: b27edc28e44649f40b779e13b33b54a5, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
@@ -297,5 +297,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: 32a23caf9da644d41b9027bc3b2b6dfc,
+  fancyIcon: {fileID: 1790492772407996393, guid: 3866601556e6e1342b27e929b8e2e814,
     type: 3}

@@ -84,7 +84,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Health
   rarity: 0
-  cardArt: {fileID: 1957582837464272927, guid: 3dd3fca39103d0945b350a14fc4580dc, type: 3}
+  cardArt: {fileID: 1957582837464272927, guid: 414b345e875714448b1eb516440c9cd8, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
@@ -308,5 +308,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: 2633848c9e2551e46be6c0507ada8372,
+  fancyIcon: {fileID: 1790492772407996393, guid: 8e9f30cfa392b314589c755588df5d0a,
     type: 3}

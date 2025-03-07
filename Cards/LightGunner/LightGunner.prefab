@@ -80,7 +80,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Ammo
   rarity: 0
-  cardArt: {fileID: 8395882236415549326, guid: 606ec0890b7091449baf82aa860a1d4d, type: 3}
+  cardArt: {fileID: 8395882236415549326, guid: 54754d419d09a0f41a8fa809f0acdd3d, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
@@ -304,5 +304,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: 5757ed8480b78594b8b65885265c9397,
+  fancyIcon: {fileID: 1790492772407996393, guid: 431d82b7ff25e304f8e5de9b11ce9d13,
     type: 3}
