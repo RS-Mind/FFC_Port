@@ -11,7 +11,7 @@ namespace Ported_FFC.Classes
             ClassesRegistry.Register(CardHolder.cards["Conditioning"], CardType.Card, CardHolder.cards["Juggernaut"]);
             ClassesRegistry.Register(CardHolder.cards["Size Matters"], CardType.Card, CardHolder.cards["Juggernaut"]);
             ClassesRegistry.Register(CardHolder.cards["Armor Plating"], CardType.Card, CardHolder.cards["Juggernaut"]);
-            //ClassesRegistry.Register(CardHolder.cards["Steroids"], CardType.Card, CardHolder.cards["Juggernaut"], 6);
+            ClassesRegistry.Register(CardHolder.cards["Steroids"], CardType.Card, CardHolder.cards["Juggernaut"], 3);
             yield return null;
         }
     }

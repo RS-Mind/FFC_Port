@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4059372422215643}
-  - component: {fileID: 114190967632551620}
   - component: {fileID: 114421384111938668}
   - component: {fileID: 114081461618018503}
   - component: {fileID: 114200975647727354}
@@ -18,6 +17,7 @@ GameObject:
   - component: {fileID: 114193385136356738}
   - component: {fileID: 114618441098152748}
   - component: {fileID: 114915464028787420}
+  - component: {fileID: 114464346633073620}
   m_Layer: 0
   m_Name: Steroids
   m_TagString: Untagged
@@ -39,19 +39,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
---- !u!114 &114190967632551620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043437007509817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98b2bbcc09027464da20acbbb271927e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rarityName: Rare
 --- !u!114 &114421384111938668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,10 +53,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: Steroids
-  cardDestription: 
+  cardDestription: You've enhanced your body to the point it can just shrug off injuries
   cardStats:
   - positive: 1
-    amount: +10%
+    amount: +20%
     simepleAmount: 0
     stat: Damage resistance
   - positive: 1
@@ -165,6 +152,7 @@ MonoBehaviour:
   isReloading: 0
   damage: 1.15
   reloadTime: 1
+  reloadTimeAdd: 0
   recoilMuiltiplier: 1
   knockback: 1
   attackSpeed: 1
@@ -177,7 +165,6 @@ MonoBehaviour:
   shakeM: 1
   ammo: 0
   ammoReg: 0
-  reloadTimeAdd: 0
   size: 0
   overheatMultiplier: 0
   timeToReachFullMovementMultiplier: 0
@@ -233,7 +220,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043437007509817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 786953031, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 11500000, guid: ead7330fb99780241a0321f47a2eab68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundBlockStart: {fileID: 0}
@@ -310,7 +297,7 @@ MonoBehaviour:
   adaptiveMovementSpeed: 0
   adaptiveGravity: 0
   healing: 1
-  damageReduction: 0.1
+  damageReduction: 0.2
   extendedMags: 0
   kingOfFools: 0
 --- !u!114 &114915464028787420
@@ -327,3 +314,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fancyIcon: {fileID: 1790492772407996393, guid: 7d3d326eff850d746bdef9b37963fc89,
     type: 3}
+--- !u!114 &114464346633073620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -547354468, guid: 025522ae965d0b148a1d1f14b3af7db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Juggernaut
+  CategoryPath: Juggernaut
+  categoryAsset: {fileID: 0}
+  Priority: 0

@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4059372422215643}
-  - component: {fileID: 114190967632551620}
   - component: {fileID: 114421384111938668}
   - component: {fileID: 114081461618018503}
   - component: {fileID: 114200975647727354}
@@ -17,6 +16,7 @@ GameObject:
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
   - component: {fileID: 114915464028787420}
+  - component: {fileID: 114433367167543820}
   m_Layer: 0
   m_Name: Barrett50Cal
   m_TagString: Untagged
@@ -38,19 +38,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
---- !u!114 &114190967632551620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043437007509817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98b2bbcc09027464da20acbbb271927e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rarityName: Rare
 --- !u!114 &114421384111938668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,25 +51,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
-  cardName: Barret .50 Cal
-  cardDestription: 'Girl Friend: ''Now that''s BIG ;)''
+  cardName: Barrett .50 Cal
+  cardDestription: 'Single-shot. Can only gain ammo from Extended Rifle Mag
 
-    *Ammo can only be added by Extended Mag*'
+    <i>Now that''s BIG ;)</i>'
   cardStats:
   - positive: 1
-    amount: 
+    amount: Instant
     simepleAmount: 0
-    stat: Insta Kill
+    stat: Kill
   - positive: 0
     amount: 1
     simepleAmount: 0
-    stat: Max Ammo
+    stat: Max ammo
   - positive: 0
     amount: +40%
     simepleAmount: 0
-    stat: Reload Speed
+    stat: Reload time
   - positive: 0
-    amount: -10%
+    amount: -20%
     simepleAmount: 0
     stat: Movement Speed
   rarity: 2
@@ -113,7 +100,7 @@ MonoBehaviour:
   objectsAddedToPlayer: []
   sizeMultiplier: 1
   health: 1
-  movementSpeed: 0.9
+  movementSpeed: 0.8
   jump: 1
   gravity: 1
   slow: 0
@@ -171,6 +158,7 @@ MonoBehaviour:
   isReloading: 0
   damage: 1
   reloadTime: 1.4
+  reloadTimeAdd: 0
   recoilMuiltiplier: 1
   knockback: 1
   attackSpeed: 1
@@ -183,7 +171,6 @@ MonoBehaviour:
   shakeM: 1
   ammo: 0
   ammoReg: 0
-  reloadTimeAdd: 0
   size: 0
   overheatMultiplier: 0
   timeToReachFullMovementMultiplier: 0
@@ -219,7 +206,7 @@ MonoBehaviour:
   useCharge: 0
   dontAllowAutoFire: 0
   objectsToSpawn: []
-  projectileColor: {r: 1, g: 0, b: 0, a: 1}
+  projectileColor: {r: 0, g: 0, b: 0, a: 1}
   waveMovement: 0
   teleport: 0
   spawnSkelletonSquare: 0
@@ -239,7 +226,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043437007509817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 786953031, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 11500000, guid: ead7330fb99780241a0321f47a2eab68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundBlockStart: {fileID: 0}
@@ -313,3 +300,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fancyIcon: {fileID: 1790492772407996393, guid: 1e947d488e4819546b9b5aea37c67529,
     type: 3}
+--- !u!114 &114433367167543820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -547354468, guid: 025522ae965d0b148a1d1f14b3af7db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Marksman
+  CategoryPath: Marksman
+  categoryAsset: {fileID: 0}
+  Priority: 0

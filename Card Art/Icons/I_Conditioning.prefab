@@ -333,7 +333,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6be011501c8fcad498afb34670150d85, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8160b909b877fc342a165eb33b1bec0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -353,7 +353,6 @@ GameObject:
   - component: {fileID: 6597567041158586645}
   - component: {fileID: 2704228514453381910}
   - component: {fileID: 4248364880828021403}
-  - component: {fileID: 3651211986359718372}
   m_Layer: 10
   m_Name: Art_Smoke (1)
   m_TagString: Untagged
@@ -416,20 +415,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &3651211986359718372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6645314344285779673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c44d90ea76b9d64d8e3a17ac88dec60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 20
 --- !u!1 &8480915401252345040
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +426,6 @@ GameObject:
   - component: {fileID: 5341851385306658969}
   - component: {fileID: 4605113936015677952}
   - component: {fileID: 621144444710566766}
-  - component: {fileID: 2848969988422985655}
   m_Layer: 10
   m_Name: Art_Smoke
   m_TagString: Untagged
@@ -503,17 +487,3 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &2848969988422985655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8480915401252345040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c44d90ea76b9d64d8e3a17ac88dec60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 20

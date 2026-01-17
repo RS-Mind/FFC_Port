@@ -16,7 +16,7 @@ namespace Ported_FFC.Monobehaviors
         private Player _player;
         private void Start()
         {
-            if (_player == null) _player = gameObject.GetComponent<Player>();
+            if (_player == null) _player = gameObject.GetComponentInParent<Player>();
             GameModeManager.AddHook(GameModeHooks.HookPointEnd, (gm) => reset());
         }
         private void Update()

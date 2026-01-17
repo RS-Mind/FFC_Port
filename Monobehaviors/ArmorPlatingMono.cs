@@ -22,7 +22,7 @@ namespace Ported_FFC.Cards.Juggernaut
 
         public void Start()
         {
-            GameModeManager.AddHook(GameModeHooks.HookPointStart, (gm) => SyncOdds(this.GetComponent<Player>().playerID));
+            GameModeManager.AddHook(GameModeHooks.HookPointStart, (gm) => SyncOdds(GetComponentInParent<Player>().playerID));
         }
 
         public IEnumerator SyncOdds(int playerID)
@@ -38,7 +38,7 @@ namespace Ported_FFC.Cards.Juggernaut
         public static void OddsRPCA(int playerID, bool[] bools)
         {
             Player player = PlayerManager.instance.players.Find(p => p.playerID == playerID);
-            ArmorPlatingMono armorPlating = player.GetComponent<ArmorPlatingMono>();
+            ArmorPlatingMono armorPlating = player.GetComponentInChildren<ArmorPlatingMono>();
             if(armorPlating == null) return;
             armorPlating.reflect_rolls = bools.ToList();
             armorPlating.indx = 0;
@@ -67,7 +67,7 @@ namespace Ported_FFC.Cards.Juggernaut
             {
                 Player hitPlayer = healthHandler.GetComponent<Player>();
                 // if the hit player is not null
-                if (hitPlayer != null && hitPlayer.GetComponent<ArmorPlatingMono>() != null && hitPlayer.GetComponent<ArmorPlatingMono>().Reflect())
+                if (hitPlayer != null && hitPlayer.GetComponentInChildren<ArmorPlatingMono>() != null && hitPlayer.GetComponentInChildren<ArmorPlatingMono>().Reflect())
                 {
                     __instance.GetComponent<ProjectileHit>().RemoveOwnPlayerFromPlayersHit();
                     __instance.GetComponent<ProjectileHit>().AddPlayerToHeld(healthHandler);

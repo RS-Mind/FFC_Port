@@ -1,12 +1,14 @@
 ﻿using BepInEx;
 using HarmonyLib;
 using Jotunn.Utils;
+using ToggleCardsCategories;
 using UnityEngine;
 
 namespace Ported_FFC
 {
 
     [BepInDependency("root.classes.manager.reborn")]
+    [BepInDependency("com.aalund13.rounds.toggle_cards_categories", BepInDependency.DependencyFlags.HardDependency)]
     [BepInPlugin(ModId, ModName, Version)]
     [BepInProcess("Rounds.exe")]
     public class PFFC : BaseUnityPlugin
@@ -27,6 +29,7 @@ namespace Ported_FFC
             {
                 UnityEngine.Debug.Log("Failed to load PFFC asset bundle");
             }
+            ToggleCardsCategoriesManager.instance.RegisterCategories(ModInitials);
             assets.LoadAsset<GameObject>("CardHolder").GetComponent<CardHolder>().RegisterCards();
         }
 

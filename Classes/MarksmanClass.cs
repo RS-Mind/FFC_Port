@@ -10,9 +10,10 @@ namespace Ported_FFC.Classes
         public override IEnumerator Init()
         {
             ClassesRegistry.Register(CardHolder.cards["Marksman"],         CardType.Entry);
-            ClassesRegistry.Register(CardHolder.cards["Armor-Piercing Rounds"],  CardType.Card, CardHolder.cards["Marksman"]);
-            ClassesRegistry.Register(CardHolder.cards["Barret .50 Cal"], CardType.Branch, CardHolder.cards["Marksman"]);
-            ClassesRegistry.Register(CardHolder.cards["Sniper Rifle Extended Mag"], CardType.Card, CardHolder.cards["Barret .50 Cal"]);
+            ClassesRegistry.Register(CardHolder.cards["Sabot Rounds"], CardType.Gate, CardHolder.cards["Marksman"]);
+            ClassesRegistry.Register(CardHolder.cards["AP Rounds"],  CardType.Card, CardHolder.cards["Marksman"]);
+            ClassesRegistry.Register(CardHolder.cards["Barrett .50 Cal"], CardType.Gate, new CardInfo[] { CardHolder.cards["AP Rounds"], CardHolder.cards["Sabot Rounds"] });
+            ClassesRegistry.Register(CardHolder.cards["Extended Rifle Mag"], CardType.Card, CardHolder.cards["Barrett .50 Cal"]);
             yield return null;
         }
     }

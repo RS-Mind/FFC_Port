@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using HarmonyLib;
+using Ported_FFC.Monobehaviors;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using HarmonyLib;
+using WeaponsManager;
 
 namespace Ported_FFC.Extensions
 {
@@ -9,6 +11,7 @@ namespace Ported_FFC.Extensions
     {
         public bool JokesOnYou = false;
         public bool hasAdaptiveSizing = false;
+        public bool pierce = false;
         public float adaptiveMovementSpeed = 0f;
         public float adaptiveGravity = 0f;
         public float healing = 1f;
@@ -20,6 +23,7 @@ namespace Ported_FFC.Extensions
         {
             player.data.stats.GetAdditionalData().JokesOnYou = JokesOnYou ? true : player.data.stats.GetAdditionalData().JokesOnYou;
             player.data.stats.GetAdditionalData().hasAdaptiveSizing = hasAdaptiveSizing ? true : player.data.stats.GetAdditionalData().hasAdaptiveSizing;
+            player.gameObject.GetComponent<WeaponManager>().weapons[0].GetData().pierce = pierce ? true : player.gameObject.GetComponent<WeaponManager>().weapons[0].GetData().pierce;
             player.data.stats.GetAdditionalData().adaptiveMovementSpeed += adaptiveMovementSpeed;
             player.data.stats.GetAdditionalData().adaptiveGravity += adaptiveGravity;
             player.data.stats.GetAdditionalData().healing *= healing;

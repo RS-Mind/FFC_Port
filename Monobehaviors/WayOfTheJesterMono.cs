@@ -25,7 +25,7 @@ namespace Ported_FFC.Cards.Jester
 
         public void Start()
         {
-            if (_player == null) _player = gameObject.GetComponent<Player>();
+            if (_player == null) _player = gameObject.GetComponentInParent<Player>();
         }
         private void Update()
         {

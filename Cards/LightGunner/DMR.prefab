@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4059372422215643}
-  - component: {fileID: 114190967632551620}
   - component: {fileID: 114421384111938668}
   - component: {fileID: 114081461618018503}
   - component: {fileID: 114200975647727354}
@@ -17,6 +16,8 @@ GameObject:
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
   - component: {fileID: 114915464028787420}
+  - component: {fileID: 7143227893333539257}
+  - component: {fileID: 114811171805320280}
   m_Layer: 0
   m_Name: DMR
   m_TagString: Untagged
@@ -38,19 +39,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
---- !u!114 &114190967632551620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043437007509817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98b2bbcc09027464da20acbbb271927e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rarityName: Uncommon
 --- !u!114 &114421384111938668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,24 +53,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: DMR
-  cardDestription: More Damage and ammo, but less attack speed
+  cardDestription: 'Press [Q/E] to change guns. While active:'
   cardStats:
   - positive: 1
-    amount: +50%
+    amount: +20%
     simepleAmount: 0
     stat: Damage
   - positive: 1
-    amount: +50%
+    amount: +100%
     simepleAmount: 0
-    stat: Bullet Speed
+    stat: Bullet speed
+  - positive: 1
+    amount: Zero
+    simepleAmount: 0
+    stat: gravity bullets
   - positive: 0
-    amount: -100%
+    amount: -33%
     simepleAmount: 0
-    stat: Attack Speed
-  - positive: 0
-    amount: -20%
-    simepleAmount: 0
-    stat: Reload Speed
+    stat: ATKSPD
   rarity: 1
   cardArt: {fileID: 1957582837464272927, guid: 0e9cb4f2591da0a46b09f233880f7d72, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
@@ -166,12 +154,13 @@ MonoBehaviour:
   shootPosition: {fileID: 0}
   player: {fileID: 0}
   isReloading: 0
-  damage: 1.5
-  reloadTime: 1.2
+  damage: 1
+  reloadTime: 1
+  reloadTimeAdd: 0
   recoilMuiltiplier: 1
   knockback: 1
-  attackSpeed: 2
-  projectileSpeed: 1.5
+  attackSpeed: 1
+  projectileSpeed: 1
   projectielSimulatonSpeed: 1
   gravity: 1
   damageAfterDistanceMultiplier: 1
@@ -180,7 +169,6 @@ MonoBehaviour:
   shakeM: 1
   ammo: 0
   ammoReg: 0
-  reloadTimeAdd: 0
   size: 0
   overheatMultiplier: 0
   timeToReachFullMovementMultiplier: 0
@@ -214,7 +202,7 @@ MonoBehaviour:
   ignoreWalls: 0
   currentCharge: 0
   useCharge: 0
-  dontAllowAutoFire: 1
+  dontAllowAutoFire: 0
   objectsToSpawn: []
   projectileColor: {r: 0, g: 0, b: 0, a: 1}
   waveMovement: 0
@@ -236,7 +224,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043437007509817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 786953031, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 11500000, guid: ead7330fb99780241a0321f47a2eab68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundBlockStart: {fileID: 0}
@@ -310,3 +298,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fancyIcon: {fileID: 1790492772407996393, guid: 09aaade66fffa7f47a967dd01555c4c8,
     type: 3}
+--- !u!114 &7143227893333539257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52531e3d5d97c04ab35fdc0335850d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon: {fileID: 8750284249145211610, guid: 0f877d8041e67684b9e5463ad2add2e8, type: 3}
+  applyCardStats: 1
+  inactiveReloadTimeMultiplier: 0.5
+  icon: {fileID: 1790492772407996393, guid: 09aaade66fffa7f47a967dd01555c4c8, type: 3}
+  weaponName: DMR
+--- !u!114 &114811171805320280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -547354468, guid: 025522ae965d0b148a1d1f14b3af7db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Light Gunner
+  CategoryPath: Light Gunner
+  categoryAsset: {fileID: 0}
+  Priority: 0

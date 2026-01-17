@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4059372422215643}
-  - component: {fileID: 114190967632551620}
   - component: {fileID: 114421384111938668}
   - component: {fileID: 114081461618018503}
   - component: {fileID: 114200975647727354}
@@ -17,6 +16,7 @@ GameObject:
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
   - component: {fileID: 114915464028787420}
+  - component: {fileID: 114611980873852324}
   m_Layer: 0
   m_Name: Armor Plating
   m_TagString: Untagged
@@ -38,19 +38,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
---- !u!114 &114190967632551620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043437007509817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98b2bbcc09027464da20acbbb271927e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rarityName: Uncommon
 --- !u!114 &114421384111938668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,13 +55,9 @@ MonoBehaviour:
   cardDestription: Sometimes you just need some extra padding
   cardStats:
   - positive: 1
-    amount: +30%
-    simepleAmount: 0
-    stat: Health
-  - positive: 1
     amount: +25%
     simepleAmount: 0
-    stat: Chance to reflect
+    stat: Reflect chance
   rarity: 1
   cardArt: {fileID: 619565206731622318, guid: 70ceab632ee9dfb4a9b0a2092db9d473, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
@@ -102,7 +85,7 @@ MonoBehaviour:
     type: 3}
   objectsAddedToPlayer: []
   sizeMultiplier: 1
-  health: 1.3
+  health: 1
   movementSpeed: 1
   jump: 1
   gravity: 1
@@ -161,6 +144,7 @@ MonoBehaviour:
   isReloading: 0
   damage: 1
   reloadTime: 1
+  reloadTimeAdd: 0
   recoilMuiltiplier: 1
   knockback: 1
   attackSpeed: 1
@@ -173,7 +157,6 @@ MonoBehaviour:
   shakeM: 1
   ammo: 0
   ammoReg: 0
-  reloadTimeAdd: 0
   size: 0
   overheatMultiplier: 0
   timeToReachFullMovementMultiplier: 0
@@ -229,7 +212,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043437007509817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 786953031, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 11500000, guid: ead7330fb99780241a0321f47a2eab68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundBlockStart: {fileID: 0}
@@ -303,3 +286,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fancyIcon: {fileID: 1790492772407996393, guid: 91a34476c8a497741b5c721dc729986c,
     type: 3}
+--- !u!114 &114611980873852324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -547354468, guid: 025522ae965d0b148a1d1f14b3af7db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CategoryPath: Juggernaut
+  UsePriority: 0
+  Priority: 0

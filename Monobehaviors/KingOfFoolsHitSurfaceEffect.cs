@@ -22,7 +22,7 @@ namespace Ported_FFC.Cards.Jester
         private const int BaseChance = 15;
         public override void Hit(Vector2 position, Vector2 normal, Vector2 velocity)
         {
-            Player player = gameObject.GetComponent<Player>();
+            Player player = gameObject.GetComponentInParent<Player>();
             var multiplier = player.data.stats.GetAdditionalData().kingOfFools;
             var role = _rng.Next(1, 101);
 
