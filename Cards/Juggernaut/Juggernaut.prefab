@@ -68,7 +68,7 @@ MonoBehaviour:
     amount: +25%
     simepleAmount: 0
     stat: Gravity
-  rarity: 0
+  rarity: 1
   cardArt: {fileID: 619565206731622318, guid: 231c2a0e64d9d98469020e407db3d8dc, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
@@ -295,6 +295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JokesOnYou: 0
   hasAdaptiveSizing: 0
+  pierce: 0
   adaptiveMovementSpeed: 0
   adaptiveGravity: 0
   healing: 1
@@ -327,6 +328,8 @@ MonoBehaviour:
   m_Script: {fileID: -547354468, guid: 025522ae965d0b148a1d1f14b3af7db8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Juggernaut
   CategoryPath: Juggernaut
-  UsePriority: 0
+  categoryAsset: {fileID: 0}
   Priority: 0

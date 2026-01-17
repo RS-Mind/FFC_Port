@@ -51,7 +51,12 @@ namespace Ported_FFC.Monobehaviors // Piercing bullet logic from TRT
 
         static void DestroyMeHandlePierce(ProjectileHit instance, HitInfo hit)
         {
-            if (!(instance.ownWeapon?.GetComponent<Gun>()?.GetData().pierce ?? false))
+            if(instance.ownWeapon == null) // Weapon is null
+            {
+                instance.InvokeMethod("DestroyMe");
+                return;
+            }
+            if (!(instance.ownWeapon?.GetComponent<Gun>()?.GetData()?.pierce ?? false))
             {
                 // the bullet is not a piercing bullet
                 instance.InvokeMethod("DestroyMe");
@@ -61,9 +66,8 @@ namespace Ported_FFC.Monobehaviors // Piercing bullet logic from TRT
                 // the bullet is a piercing bullet and hit a wall
                 instance.InvokeMethod("DestroyMe");
             }
-            if (instance.gameObject.GetComponentInChildren<InstantKillHitEffect>() is InstantKillHitEffect effect)
+            if (instance.gameObject?.GetComponentInChildren<InstantKillHitEffect>() is InstantKillHitEffect effect)
             {
-                UnityEngine.Debug.Log("Found!");
                 effect.active = false;
             }
             instance.damage *= .75f;
