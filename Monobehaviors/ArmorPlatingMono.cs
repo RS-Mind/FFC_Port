@@ -55,9 +55,11 @@ namespace Ported_FFC.Cards.Juggernaut
     [HarmonyPatch(typeof(ProjectileHit), "Hit")]
     class ProjectileHitPatchHit
     {
-        // disable friendly fire or self damage and hit effects if that setting is enabled
         private static bool Prefix(ProjectileHit __instance, HitInfo hit, bool forceCall)
         {
+            if (__instance.unblockable == true) // Do not try to reflect unblockable bullets
+                return true;
+
             HealthHandler healthHandler = null;
             if (hit.transform)
             {

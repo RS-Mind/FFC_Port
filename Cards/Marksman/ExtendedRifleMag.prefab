@@ -53,7 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: Extended Rifle Mag
-  cardDestription: Then only way to add ammo if you have Barret .50 Cal!
+  cardDestription: The only way to add ammo for a Barrett .50 Cal!
   cardStats:
   - positive: 1
     amount: +1
@@ -62,11 +62,11 @@ MonoBehaviour:
   - positive: 0
     amount: -10%
     simepleAmount: 0
-    stat: Reload Speed
+    stat: Reload speed
   - positive: 0
     amount: -5%
     simepleAmount: 0
-    stat: Movement Speed
+    stat: Movement speed
   rarity: 1
   cardArt: {fileID: 1957582837464272927, guid: ee1aa5d5ec841c44b89ca6a2b3d07fa9, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
@@ -294,6 +294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JokesOnYou: 0
   hasAdaptiveSizing: 0
+  pierce: 0
   adaptiveMovementSpeed: 0
   adaptiveGravity: 0
   healing: 1
@@ -326,6 +327,8 @@ MonoBehaviour:
   m_Script: {fileID: -547354468, guid: 025522ae965d0b148a1d1f14b3af7db8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Marksman
   CategoryPath: Marksman
-  UsePriority: 0
+  categoryAsset: {fileID: 0}
   Priority: 0

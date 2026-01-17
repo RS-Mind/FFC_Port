@@ -52,8 +52,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: Fast Mags
-  cardDestription: After many missed shots and constantly having to reloading.. You
-    bought fast mags. But, it didn't fix your aim
+  cardDestription: After many missed shots and constantly having to reload.. You bought
+    fast mags. But, it didn't fix your aim
   cardStats:
   - positive: 1
     amount: -70%
@@ -298,6 +298,8 @@ MonoBehaviour:
   m_Script: {fileID: -547354468, guid: 025522ae965d0b148a1d1f14b3af7db8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Light Gunner
   CategoryPath: Light Gunner
-  UsePriority: 0
+  categoryAsset: {fileID: 0}
   Priority: 0

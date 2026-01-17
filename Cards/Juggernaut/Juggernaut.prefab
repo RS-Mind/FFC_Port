@@ -53,13 +53,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: Juggernaut
-  cardDestription: Years of steroids have turned you into a slow moving, but deadly
+  cardDestription: Years of steroids have turned you into a slow-moving, but deadly
     and unstoppable force
   cardStats:
   - positive: 1
     amount: +100%
     simepleAmount: 0
-    stat: Max health
+    stat: Health
   - positive: 0
     amount: -35%
     simepleAmount: 0

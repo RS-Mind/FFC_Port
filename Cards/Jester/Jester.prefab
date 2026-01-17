@@ -57,7 +57,7 @@ MonoBehaviour:
   - positive: 1
     amount: +15%
     simepleAmount: 0
-    stat: Movement Speed
+    stat: Movement speed
   - positive: 1
     amount: +2
     simepleAmount: 0
@@ -309,6 +309,8 @@ MonoBehaviour:
   m_Script: {fileID: -547354468, guid: 025522ae965d0b148a1d1f14b3af7db8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Jester
   CategoryPath: Jester
-  UsePriority: 0
+  categoryAsset: {fileID: 0}
   Priority: 0

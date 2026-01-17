@@ -52,7 +52,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: Way of the Jester
-  cardDestription: 'Gain the following benefits per bounce you have, up to 5 per card.
+  cardDestription: 'Gain the following benefits per bounce you have, up to 5 per card
 
     <i>Thanks Pong! ;)</i>'
   cardStats:
@@ -308,6 +308,8 @@ MonoBehaviour:
   m_Script: {fileID: -547354468, guid: 025522ae965d0b148a1d1f14b3af7db8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Jester
   CategoryPath: Jester
-  UsePriority: 0
+  categoryAsset: {fileID: 0}
   Priority: 0
