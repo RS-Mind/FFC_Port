@@ -300,7 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: f8e6a2b1a174dd84cb279c7f75b4d068,
+  fancyIcon: {fileID: 1790492772407996393, guid: 7b174dfac9de4644493dec2d54533d85,
     type: 3}
 --- !u!114 &114821519451648148
 MonoBehaviour:
@@ -317,7 +317,7 @@ MonoBehaviour:
   weapon: {fileID: 8750284249145211610, guid: 35004162d45603344a852d68b8e913dd, type: 3}
   applyCardStats: 1
   inactiveReloadTimeMultiplier: 0.5
-  icon: {fileID: 1790492772407996393, guid: f8e6a2b1a174dd84cb279c7f75b4d068, type: 3}
+  icon: {fileID: 1790492772407996393, guid: 7b174dfac9de4644493dec2d54533d85, type: 3}
   weaponName: 12-Gauge
 --- !u!114 &114232824017258954
 MonoBehaviour:

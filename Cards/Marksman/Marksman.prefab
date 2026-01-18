@@ -299,7 +299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: a9883bdd56a9b124a9b77746cb0818c3,
+  fancyIcon: {fileID: 1790492772407996393, guid: 085d7386767e0204e9a38e1826bcf4af,
     type: 3}
 --- !u!114 &114150303440016834
 MonoBehaviour:
