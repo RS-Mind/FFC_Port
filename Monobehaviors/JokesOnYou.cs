@@ -1,10 +1,10 @@
 ﻿using HarmonyLib;
-using Ported_FFC.Extensions;
+using Ported_FFC_Classic.Extensions;
 using System;
 using UnboundLib;
 
 
-namespace Ported_FFC.Patches
+namespace Ported_FFC_Classic.Patches
 {
     [Serializable]
     [HarmonyPatch(typeof(ProjectileHit), "Hit")]

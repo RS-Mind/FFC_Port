@@ -52,29 +52,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: Marksman
-  cardDestription: Snipe your foes with quick, straight-shooting bullets.
+  cardDestription: All or nothing. Precision is key
   cardStats:
   - positive: 1
-    amount: +80%
+    amount: +80.0%
     simepleAmount: 0
     stat: Damage
   - positive: 1
-    amount: +100%
+    amount: No
+    simepleAmount: 0
+    stat: Bullet Gravity
+  - positive: 1
+    amount: +100.0%
     simepleAmount: 0
     stat: Projectile Speed
   - positive: 0
-    amount: -50%
+    amount: -50.0%
     simepleAmount: 0
     stat: Health
   - positive: 0
-    amount: -66%
+    amount: -200.0%
     simepleAmount: 0
-    stat: ATKSPD
+    stat: Attack Speed
+  - positive: 0
+    amount: +20.0%
+    simepleAmount: 0
+    stat: Reload Time
   - positive: 0
     amount: -1
     simepleAmount: 0
-    stat: Ammo
-  rarity: 1
+    stat: Max Ammo
+  rarity: 0
   cardArt: {fileID: 1957582837464272927, guid: da926d60f1afe3a4180f5c5b45d3ec12, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
@@ -158,7 +166,7 @@ MonoBehaviour:
   player: {fileID: 0}
   isReloading: 0
   damage: 1.8
-  reloadTime: 1
+  reloadTime: 1.2
   reloadTimeAdd: 0
   recoilMuiltiplier: 1
   knockback: 1

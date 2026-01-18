@@ -51,15 +51,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
-  cardName: AP Rounds
+  cardName: Armor-Piercing Rounds
   cardDestription: Tired of your friends blocking your shots? This might help
   cardStats:
   - positive: 1
-    amount: Unblockable
+    amount: 
     simepleAmount: 0
-    stat: Bullets
+    stat: Unblockable
   - positive: 0
-    amount: +25%
+    amount: +25.0%
     simepleAmount: 0
     stat: Reload time
   rarity: 2

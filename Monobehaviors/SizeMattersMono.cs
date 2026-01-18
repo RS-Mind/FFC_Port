@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnboundLib.GameModes;
 using UnboundLib;
 using UnityEngine;
-using Ported_FFC.Extensions;
+using Ported_FFC_Classic.Extensions;
 
-namespace Ported_FFC.Monobehaviors
+namespace Ported_FFC_Classic.Monobehaviors
 {
     public class SizeMattersMono : MonoBehaviour
     {

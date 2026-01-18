@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnboundLib.Cards;
 using UnityEngine;
 
-namespace Ported_FFC
+namespace Ported_FFC_Classic
 {
     public class CardHolder : MonoBehaviour // Loads cards
     {
@@ -15,13 +15,13 @@ namespace Ported_FFC
         {
             foreach (var Card in Cards)
             {
-                CustomCard.RegisterUnityCard(Card, PFFC.ModInitials, Card.GetComponent<CardInfo>().cardName, true, null);
+                CustomCard.RegisterUnityCard(Card, PFFCC.ModInitials, Card.GetComponent<CardInfo>().cardName, true, null);
                 CustomCardCategories.instance.UpdateAndPullCategoriesFromCard(Card.GetComponent<CardInfo>());
                 cards.Add(Card.GetComponent<CardInfo>().cardName, Card.GetComponent<CardInfo>());
             }
             foreach (var Card in HiddenCards)
             {
-                CustomCard.RegisterUnityCard(Card, PFFC.ModInitials, Card.GetComponent<CardInfo>().cardName, false, null);
+                CustomCard.RegisterUnityCard(Card, PFFCC.ModInitials, Card.GetComponent<CardInfo>().cardName, false, null);
                 CustomCardCategories.instance.UpdateAndPullCategoriesFromCard(Card.GetComponent<CardInfo>());
                 ModdingUtils.Utils.Cards.instance.AddHiddenCard(Card.GetComponent<CardInfo>());
                 cards.Add(Card.GetComponent<CardInfo>().cardName, Card.GetComponent<CardInfo>());

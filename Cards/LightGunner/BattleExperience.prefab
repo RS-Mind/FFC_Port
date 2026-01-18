@@ -55,19 +55,19 @@ MonoBehaviour:
   cardDestription: A few tours later...
   cardStats:
   - positive: 1
-    amount: +15%
+    amount: +15.0%
     simepleAmount: 0
     stat: Damage
   - positive: 1
-    amount: +25%
+    amount: -25.0%
     simepleAmount: 0
-    stat: Reload speed
+    stat: Reload Time
   - positive: 1
-    amount: +10%
+    amount: +10.0%
     simepleAmount: 0
-    stat: ATKSPD
+    stat: Attack Speed
   - positive: 0
-    amount: -10%
+    amount: -10.0%
     simepleAmount: 0
     stat: Health
   rarity: 0

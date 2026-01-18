@@ -9,13 +9,13 @@ using UnboundLib.Cards;
 using UnboundLib.Utils;
 using UnityEngine;
 
-namespace Ported_FFC.Monobehaviors
+namespace Ported_FFC_Classic.Monobehaviors
 {
     internal class WildCardMono : MonoBehaviour
     {
         public void Start()
         {
-            PFFC.instance.ExecuteAfterFrames(5, () =>
+            PFFCC.instance.ExecuteAfterFrames(5, () =>
             {
                 Player player = GetComponentInParent<Player>();
                 CardInfo[] availableCards = UnboundLib.Utils.CardManager.cards.Values.Where(c => c.cardInfo != CardHolder.cards["Wildcard"] && c.cardInfo.GetComponent<Gun>() != null && c.cardInfo.GetComponent<Gun>().reflects > 0 && c.enabled && ModdingUtils.Utils.Cards.instance.PlayerIsAllowedCard(player, c.cardInfo)).Select(c => c.cardInfo).ToArray();

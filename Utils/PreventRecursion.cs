@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-namespace Ported_FFC.Utils
+namespace Ported_FFC_Classic.Utils
 {
     public class PreventRecursion
     {

@@ -1,8 +1,8 @@
 ﻿using ClassesManagerReborn.Util;
 using ModdingUtils.RoundsEffects;
 using Photon.Pun;
-using Ported_FFC.Extensions;
-using Ported_FFC.Utils;
+using Ported_FFC_Classic.Extensions;
+using Ported_FFC_Classic.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ using UnboundLib.Networking;
 using UnityEngine;
 using Random = System.Random;
 
-namespace Ported_FFC.Cards.Jester
+namespace Ported_FFC_Classic.Cards.Jester
 {
     public class KingOfFoolsHitSurfaceEffect : HitSurfaceEffect
     {

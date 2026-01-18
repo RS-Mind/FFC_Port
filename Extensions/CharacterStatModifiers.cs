@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 using HarmonyLib;
 using UnboundLib.GameModes;
 
-namespace Ported_FFC.Extensions
+namespace Ported_FFC_Classic.Extensions
 {
     [Serializable]
     public class CharacterStatModifiersAdditionalData

@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using ModdingUtils.RoundsEffects;
 using Photon.Pun;
-using Ported_FFC.Extensions;
+using Ported_FFC_Classic.Extensions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using UnboundLib;
 using UnityEngine;
 using WeaponsManager;
 
-namespace Ported_FFC.Monobehaviors
+namespace Ported_FFC_Classic.Monobehaviors
 {
     public class Barret50CalMono : MonoBehaviour
     {
@@ -54,7 +54,7 @@ namespace Ported_FFC.Monobehaviors
                 weaponManager.names[0] = "Barrett .50 Cal";
                 oldIcon = weaponManager.icons[0];
                 oldIcon.SetActive(false);
-                GameObject newIcon = PFFC.assets.LoadAsset<GameObject>("I_Barrett50Cal");
+                GameObject newIcon = PFFCC.assets.LoadAsset<GameObject>("I_Barrett50Cal");
                 weaponManager.icons[0] = Instantiate(newIcon, oldIcon.transform.parent);
                 Destroy(newIcon);
                 weaponManager.UpdateIcons();

@@ -55,19 +55,15 @@ MonoBehaviour:
   cardDestription: As a Jester, you enjoy bullet bounces
   cardStats:
   - positive: 1
-    amount: +15%
+    amount: +15.0%
     simepleAmount: 0
     stat: Movement speed
   - positive: 1
-    amount: +2
+    amount: +3
     simepleAmount: 0
     stat: Bounces
-  - positive: 1
-    amount: +25%
-    simepleAmount: 0
-    stat: Bullet speed
   - positive: 0
-    amount: -15%
+    amount: -15.0%
     simepleAmount: 0
     stat: Health
   rarity: 0
@@ -159,7 +155,7 @@ MonoBehaviour:
   recoilMuiltiplier: 1
   knockback: 1
   attackSpeed: 1
-  projectileSpeed: 1.25
+  projectileSpeed: 1
   projectielSimulatonSpeed: 1
   gravity: 1
   damageAfterDistanceMultiplier: 1
@@ -173,7 +169,7 @@ MonoBehaviour:
   timeToReachFullMovementMultiplier: 0
   numberOfProjectiles: 0
   bursts: 0
-  reflects: 2
+  reflects: 3
   smartBounce: 0
   bulletPortal: 0
   randomBounces: 0

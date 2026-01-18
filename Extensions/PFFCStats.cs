@@ -1,11 +1,11 @@
 ﻿using HarmonyLib;
-using Ported_FFC.Monobehaviors;
+using Ported_FFC_Classic.Monobehaviors;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using WeaponsManager;
 
-namespace Ported_FFC.Extensions
+namespace Ported_FFC_Classic.Extensions
 {
     public class PFFCStats : MonoBehaviour // Used to apply custom stats to unity cards
     {

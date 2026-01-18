@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
   - component: {fileID: 114915464028787420}
-  - component: {fileID: 5785282851898875304}
   - component: {fileID: 114321883847769862}
   m_Layer: 0
   m_Name: LMG
@@ -53,20 +52,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: LMG
-  cardDestription: 'Press [Q/E] to change guns. While active:'
+  cardDestription: '''SAY HELLO TO MY LITTLE FRIEND'' - Said someone, somewhere'
   cardStats:
   - positive: 1
-    amount: +900%
-    simepleAmount: 0
-    stat: ATKSPD
-  - positive: 1
-    amount: +9
-    simepleAmount: 0
-    stat: Ammo
-  - positive: 0
-    amount: -75%
+    amount: +35.0%
     simepleAmount: 0
     stat: Damage
+  - positive: 1
+    amount: +30.0%
+    simepleAmount: 0
+    stat: Bullet Speed
+  - positive: 1
+    amount: +12
+    simepleAmount: 0
+    stat: Max Ammo
+  - positive: 0
+    amount: -30.0%
+    simepleAmount: 0
+    stat: Attack Speed
+  - positive: 0
+    amount: -150.0%
+    simepleAmount: 0
+    stat: Reload Speed
+  - positive: 0
+    amount: -30.0%
+    simepleAmount: 0
+    stat: Movement Speed
   rarity: 1
   cardArt: {fileID: 1957582837464272927, guid: 9ba53e73d0f34d940a3fcc7d8fd8a8e9, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
@@ -94,7 +105,7 @@ MonoBehaviour:
   objectsAddedToPlayer: []
   sizeMultiplier: 1
   health: 1
-  movementSpeed: 1
+  movementSpeed: 0.7
   jump: 1
   gravity: 1
   slow: 0
@@ -150,20 +161,20 @@ MonoBehaviour:
   shootPosition: {fileID: 0}
   player: {fileID: 0}
   isReloading: 0
-  damage: 1
-  reloadTime: 1
+  damage: 1.35
+  reloadTime: 2.5
   reloadTimeAdd: 0
   recoilMuiltiplier: 1
   knockback: 1
-  attackSpeed: 1
-  projectileSpeed: 1
+  attackSpeed: 1.3
+  projectileSpeed: 1.3
   projectielSimulatonSpeed: 1
   gravity: 1
   damageAfterDistanceMultiplier: 1
   bulletDamageMultiplier: 1
   multiplySpread: 1
   shakeM: 1
-  ammo: 0
+  ammo: 12
   ammoReg: 0
   size: 0
   overheatMultiplier: 0
@@ -294,23 +305,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fancyIcon: {fileID: 1790492772407996393, guid: 795c1d21f2536444ab731f3f37bba6c4,
     type: 3}
---- !u!114 &5785282851898875304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043437007509817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f52531e3d5d97c04ab35fdc0335850d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapon: {fileID: 8750284249145211610, guid: 401ab28c8338c6744a38ae48606b14c9, type: 3}
-  applyCardStats: 1
-  inactiveReloadTimeMultiplier: 0.5
-  icon: {fileID: 1790492772407996393, guid: 795c1d21f2536444ab731f3f37bba6c4, type: 3}
-  weaponName: LMG
 --- !u!114 &114321883847769862
 MonoBehaviour:
   m_ObjectHideFlags: 0

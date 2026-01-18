@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
   - component: {fileID: 114915464028787420}
-  - component: {fileID: 7143227893333539257}
   - component: {fileID: 114811171805320280}
   m_Layer: 0
   m_Name: DMR
@@ -53,24 +52,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: DMR
-  cardDestription: 'Press [Q/E] to change guns. While active:'
+  cardDestription: More Damage and ammo, but less attack speed
   cardStats:
   - positive: 1
-    amount: +20%
+    amount: +50.0%
     simepleAmount: 0
     stat: Damage
   - positive: 1
-    amount: +100%
+    amount: +50.0%
     simepleAmount: 0
     stat: Bullet speed
-  - positive: 1
-    amount: Zero
-    simepleAmount: 0
-    stat: gravity bullets
   - positive: 0
-    amount: -33%
+    amount: -100.0%
     simepleAmount: 0
-    stat: ATKSPD
+    stat: Attack Speed
+  - positive: 0
+    amount: +20.0%
+    simepleAmount: 0
+    stat: Reload Time
   rarity: 1
   cardArt: {fileID: 1957582837464272927, guid: 9e44f25156d5e5a479dff751fb17c547, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
@@ -154,13 +153,13 @@ MonoBehaviour:
   shootPosition: {fileID: 0}
   player: {fileID: 0}
   isReloading: 0
-  damage: 1
-  reloadTime: 1
+  damage: 1.5
+  reloadTime: 1.2
   reloadTimeAdd: 0
   recoilMuiltiplier: 1
   knockback: 1
-  attackSpeed: 1
-  projectileSpeed: 1
+  attackSpeed: 2
+  projectileSpeed: 1.5
   projectielSimulatonSpeed: 1
   gravity: 1
   damageAfterDistanceMultiplier: 1
@@ -298,23 +297,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fancyIcon: {fileID: 1790492772407996393, guid: 340eb4d3251c5d84a9b5bbadebe3b2f2,
     type: 3}
---- !u!114 &7143227893333539257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043437007509817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f52531e3d5d97c04ab35fdc0335850d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapon: {fileID: 8750284249145211610, guid: 0f877d8041e67684b9e5463ad2add2e8, type: 3}
-  applyCardStats: 1
-  inactiveReloadTimeMultiplier: 0.5
-  icon: {fileID: 1790492772407996393, guid: 340eb4d3251c5d84a9b5bbadebe3b2f2, type: 3}
-  weaponName: DMR
 --- !u!114 &114811171805320280
 MonoBehaviour:
   m_ObjectHideFlags: 0

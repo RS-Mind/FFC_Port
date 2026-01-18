@@ -1,5 +1,5 @@
 ﻿using ClassesManagerReborn.Util;
-using Ported_FFC.Utils;
+using Ported_FFC_Classic.Utils;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,7 +13,7 @@ using System.Linq;
 using HarmonyLib;
 using UnboundLib.GameModes;
 
-namespace Ported_FFC.Cards.Juggernaut
+namespace Ported_FFC_Classic.Cards.Juggernaut
 {
     public class ArmorPlatingMono : MonoBehaviour
     {
@@ -29,7 +29,7 @@ namespace Ported_FFC.Cards.Juggernaut
         {
             if (!PhotonNetwork.IsMasterClient) yield break;
             bool[] bools = new bool[1000];
-            for (int i = 0; i < 1000; ++i) bools[i] = UnityEngine.Random.Range(0,4) == 0? true : false;
+            for (int i = 0; i < 1000; ++i) bools[i] = UnityEngine.Random.Range(0,10) == 0? true : false;
             NetworkingManager.RPC(typeof(ArmorPlatingMono), nameof(OddsRPCA), playerID, bools);
             yield break;
         }
@@ -57,9 +57,6 @@ namespace Ported_FFC.Cards.Juggernaut
     {
         private static bool Prefix(ProjectileHit __instance, HitInfo hit, bool forceCall)
         {
-            if (__instance.unblockable == true) // Do not try to reflect unblockable bullets
-                return true;
-
             HealthHandler healthHandler = null;
             if (hit.transform)
             {

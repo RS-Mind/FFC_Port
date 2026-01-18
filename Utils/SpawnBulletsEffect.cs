@@ -4,9 +4,9 @@ using UnityEngine;
 using HarmonyLib;
 using System.Reflection;
 using Photon.Pun;
-using Ported_FFC.Extensions;
+using Ported_FFC_Classic.Extensions;
 
-namespace Ported_FFC.Utils
+namespace Ported_FFC_Classic.Utils
 {
 
 	/// 

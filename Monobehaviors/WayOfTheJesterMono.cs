@@ -1,5 +1,5 @@
 ﻿using ClassesManagerReborn.Util;
-using Ported_FFC.Utils;
+using Ported_FFC_Classic.Utils;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,7 +7,7 @@ using UnboundLib;
 using UnboundLib.Cards;
 using UnityEngine;
 
-namespace Ported_FFC.Cards.Jester
+namespace Ported_FFC_Classic.Cards.Jester
 {
     public class WayOfTheJesterMono : MonoBehaviour
     {
@@ -32,7 +32,7 @@ namespace Ported_FFC.Cards.Jester
             if (_player == null) return;
             _stats = _player.data.stats;
             _gun = _player.GetComponent<Holding>().holdable.GetComponent<Gun>();
-            var bounce_cap = 5 * _player.data.currentCards.Count;
+            var bounce_cap = 25;
             _bounces = Mathf.Clamp(_gun.reflects, 0, bounce_cap);
             if (_bounces == _previousBounces) return;
             _previousBounces = _bounces;

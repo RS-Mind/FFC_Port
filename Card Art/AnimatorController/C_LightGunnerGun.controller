@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: C_AssaultRifle
+  m_Name: C_LightGunnerGun
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -42,7 +42,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: d84e562290734ce40b908f237d17931d, type: 2}
+  m_Motion: {fileID: 7400000, guid: 6ca65bc09fc2d2d4b95db90fe39cba12, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

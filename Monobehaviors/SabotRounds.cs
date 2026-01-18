@@ -7,7 +7,7 @@ using System.Runtime.CompilerServices;
 using UnboundLib;
 using UnityEngine;
 
-namespace Ported_FFC.Monobehaviors // Piercing bullet logic from TRT
+namespace Ported_FFC_Classic.Monobehaviors // Piercing bullet logic from TRT
 {
     [HarmonyPatch(typeof(ProjectileCollision), "Die")]
     class ProjectileCollision_Patch_Die

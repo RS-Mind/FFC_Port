@@ -55,9 +55,13 @@ MonoBehaviour:
   cardDestription: Sometimes you just need some extra padding
   cardStats:
   - positive: 1
-    amount: +25%
+    amount: +30%
     simepleAmount: 0
-    stat: Reflect chance
+    stat: Health
+  - positive: 1
+    amount: +10%
+    simepleAmount: 0
+    stat: Chance to Reflect
   rarity: 1
   cardArt: {fileID: 619565206731622318, guid: 77fe3a2380f480544b0702fa9a5171a5, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}

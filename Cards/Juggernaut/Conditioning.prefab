@@ -55,11 +55,11 @@ MonoBehaviour:
   cardDestription: You've trained hard! And it's paying off...
   cardStats:
   - positive: 1
-    amount: +20%
+    amount: +50.0%
     simepleAmount: 0
     stat: Health
   - positive: 1
-    amount: +15%
+    amount: +15.0%
     simepleAmount: 0
     stat: Movement speed
   rarity: 1
@@ -88,7 +88,7 @@ MonoBehaviour:
   AddObjectToPlayer: {fileID: 0}
   objectsAddedToPlayer: []
   sizeMultiplier: 1
-  health: 1.2
+  health: 1.5
   movementSpeed: 1.15
   jump: 1
   gravity: 1

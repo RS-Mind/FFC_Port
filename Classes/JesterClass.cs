@@ -1,7 +1,7 @@
 ﻿using ClassesManagerReborn;
 using System.Collections;
 
-namespace Ported_FFC.Classes
+namespace Ported_FFC_Classic.Classes
 {
     class JesterClass : ClassHandler
     {
@@ -11,7 +11,6 @@ namespace Ported_FFC.Classes
             ClassesRegistry.Register(CardHolder.cards["Joke's On You!"], CardType.Card, CardHolder.cards["Jester"]);
             ClassesRegistry.Register(CardHolder.cards["King of Fools"], CardType.Card, CardHolder.cards["Jester"], 2);
             ClassesRegistry.Register(CardHolder.cards["Way of the Jester"], CardType.Card, CardHolder.cards["Jester"]);
-            ClassesRegistry.Register(CardHolder.cards["Wildcard"], CardType.Card, CardHolder.cards["Jester"]);
             yield return null;
         }
     }

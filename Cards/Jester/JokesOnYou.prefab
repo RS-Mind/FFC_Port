@@ -56,9 +56,9 @@ MonoBehaviour:
   cardDestription: Your bouncing bullets no longer damage you!
   cardStats:
   - positive: 1
-    amount: +1
+    amount: +3
     simepleAmount: 0
-    stat: Bounce
+    stat: Bounces
   rarity: 2
   cardArt: {fileID: 445320440631683718, guid: e65652fae964ea949a8b6553d0f4c4f9, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
@@ -162,7 +162,7 @@ MonoBehaviour:
   timeToReachFullMovementMultiplier: 0
   numberOfProjectiles: 0
   bursts: 0
-  reflects: 1
+  reflects: 3
   smartBounce: 0
   bulletPortal: 0
   randomBounces: 0

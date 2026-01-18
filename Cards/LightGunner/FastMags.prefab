@@ -52,11 +52,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: Fast Mags
-  cardDestription: After many missed shots and constantly having to reload.. You bought
-    fast mags. But, it didn't fix your aim
+  cardDestription: After many missed shots and constantly having to reloading.. You
+    bought fast mags. But, it didn't fix your aim
   cardStats:
   - positive: 1
-    amount: -70%
+    amount: -30.0%
     simepleAmount: 0
     stat: Reload time
   rarity: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   player: {fileID: 0}
   isReloading: 0
   damage: 1
-  reloadTime: 0.3
+  reloadTime: 0.7
   reloadTimeAdd: 0
   recoilMuiltiplier: 1
   knockback: 1

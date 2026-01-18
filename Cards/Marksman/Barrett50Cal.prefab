@@ -51,25 +51,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
-  cardName: Barrett .50 Cal
-  cardDestription: 'Single-shot. Can only gain ammo from Extended Rifle Mag
-
-    <i>Now that''s BIG ;)</i>'
+  cardName: Barret .50 Cal
+  cardDestription: 'Girl Friend: ''Now that''s BIG ;)'' *Ammo can only be added by
+    Sniper Rifle Extended Mag*'
   cardStats:
   - positive: 1
-    amount: Instant
+    amount: 
     simepleAmount: 0
-    stat: Kill
+    stat: Insta Kill
   - positive: 0
     amount: 1
     simepleAmount: 0
-    stat: Max ammo
+    stat: Max Ammo
   - positive: 0
-    amount: +40%
+    amount: +40.0%
     simepleAmount: 0
     stat: Reload time
   - positive: 0
-    amount: -20%
+    amount: -10.0%
     simepleAmount: 0
     stat: Movement speed
   rarity: 2
@@ -100,7 +99,7 @@ MonoBehaviour:
   objectsAddedToPlayer: []
   sizeMultiplier: 1
   health: 1
-  movementSpeed: 0.8
+  movementSpeed: 0.9
   jump: 1
   gravity: 1
   slow: 0

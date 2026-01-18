@@ -52,19 +52,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
-  cardName: Extended Rifle Mag
-  cardDestription: The only way to add ammo for a Barrett .50 Cal!
+  cardName: Sniper Rifle Extended Mag
+  cardDestription: The only way to add ammo if you have Barrett .50 Cal!
   cardStats:
   - positive: 1
     amount: +1
     simepleAmount: 0
     stat: Ammo
   - positive: 0
-    amount: -10%
+    amount: +10.0%
     simepleAmount: 0
-    stat: Reload speed
+    stat: Reload Time
   - positive: 0
-    amount: -5%
+    amount: -5.0%
     simepleAmount: 0
     stat: Movement speed
   rarity: 1
