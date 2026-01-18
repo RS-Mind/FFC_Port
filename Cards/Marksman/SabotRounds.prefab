@@ -65,7 +65,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Reload time
   rarity: 1
-  cardArt: {fileID: 1957582837464272927, guid: 2338520c2ab383f43b0185da3ca4757b, type: 3}
+  cardArt: {fileID: 1957582837464272927, guid: 8b181b6413dba6d49a7ad1c00e9b76c6, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}

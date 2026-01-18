@@ -68,7 +68,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Damage
   rarity: 1
-  cardArt: {fileID: 1957582837464272927, guid: 58b32a1845b2ef741982bfc673ac97e3, type: 3}
+  cardArt: {fileID: 1957582837464272927, guid: 9ba53e73d0f34d940a3fcc7d8fd8a8e9, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}

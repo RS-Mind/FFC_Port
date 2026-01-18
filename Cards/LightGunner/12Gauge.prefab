@@ -76,7 +76,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Range
   rarity: 1
-  cardArt: {fileID: 1957582837464272927, guid: 67164d495dc29dc42a747c73878643db, type: 3}
+  cardArt: {fileID: 1957582837464272927, guid: 655497b5cc4679340a8c0ca85d739c1c, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
