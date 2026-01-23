@@ -15,7 +15,7 @@ namespace Ported_FFC
     {
         private const string ModId = "root.port.fluxxfield.fluxxfieldscards";
         private const string ModName = "Port of FFC";
-        private const string Version = "1.3";
+        private const string Version = "1.3.1";
         public const string ModInitials = "PFFC";
         internal static AssetBundle assets;
         public static PFFC instance { get; private set; }
@@ -24,7 +24,7 @@ namespace Ported_FFC
         {
             var harmony = new Harmony(ModId);
             harmony.PatchAll();
-            assets = AssetUtils.LoadAssetBundleFromResources("pffcart", typeof(PFFC).Assembly);
+            assets = AssetUtils.LoadAssetBundleFromResources("pffc", typeof(PFFC).Assembly);
             if (assets == null)
             {
                 UnityEngine.Debug.Log("Failed to load PFFC asset bundle");
