@@ -56,7 +56,7 @@ MonoBehaviour:
   cardDestription: You get smaller and run faster as you take damage
   cardStats:
   - positive: 1
-    amount: +10%
+    amount: +15%
     simepleAmount: 0
     stat: Movement speed
   rarity: 1
@@ -87,7 +87,7 @@ MonoBehaviour:
   objectsAddedToPlayer: []
   sizeMultiplier: 1
   health: 1
-  movementSpeed: 1.1
+  movementSpeed: 1.15
   jump: 1
   gravity: 1
   slow: 0
