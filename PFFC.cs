@@ -27,7 +27,7 @@ namespace Ported_FFC_Classic
             assets = AssetUtils.LoadAssetBundleFromResources("pffcart", typeof(PFFCC).Assembly);
             if (assets == null)
             {
-                UnityEngine.Debug.Log("Failed to load PFFC asset bundle");
+                UnityEngine.Debug.Log("Failed to load PFFCC asset bundle");
             }
             ToggleCardsCategoriesManager.instance.RegisterCategories(ModInitials);
             assets.LoadAsset<GameObject>("CardHolder").GetComponent<CardHolder>().RegisterCards();

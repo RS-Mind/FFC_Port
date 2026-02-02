@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JokesOnYou: 0
-  hasAdaptiveSizing: 0
+  hasAdaptiveSizing: 1
   pierce: 0
   adaptiveMovementSpeed: 0.35
   adaptiveGravity: 0.25

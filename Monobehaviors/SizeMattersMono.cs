@@ -17,6 +17,7 @@ namespace Ported_FFC_Classic.Monobehaviors
         private void Start()
         {
             if (_player == null) _player = gameObject.GetComponentInParent<Player>();
+            if (_player.GetComponentsInChildren<SizeMattersMono>().Length > 1) Destroy(this.gameObject);
             GameModeManager.AddHook(GameModeHooks.HookPointEnd, (gm) => reset());
         }
         private void Update()
