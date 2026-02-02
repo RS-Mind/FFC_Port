@@ -15,7 +15,7 @@ namespace Ported_FFC_Classic
     {
         private const string ModId = "root.port.fluxxfield.fluxxfieldscardsclassic";
         private const string ModName = "Port of FFC - Classic";
-        private const string Version = "4.5";
+        private const string Version = "4.5.1";
         public const string ModInitials = "PFFCC";
         internal static AssetBundle assets;
         public static PFFCC instance { get; private set; }
