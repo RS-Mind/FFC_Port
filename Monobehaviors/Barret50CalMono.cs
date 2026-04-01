@@ -18,7 +18,6 @@ namespace Ported_FFC.Monobehaviors
         private GameObject barrel;
         private GameObject barrel2;
         private Gun gun;
-        private InstantKillHitEffect hitEffect;
         private static GameObject _InstantKillObj = null;
         private GameObject oldIcon;
         private string oldName;
@@ -69,6 +68,7 @@ namespace Ported_FFC.Monobehaviors
             RightLeftMirrorSpring scopeSpring = scope.GetComponent<RightLeftMirrorSpring>();
             scopeSpring.leftPos = new Vector3(0.3f, 0.6f, 0f);
 
+            barrel2.GetComponent<BoxCollider2D>().enabled = false;
             scope.GetComponent<BoxCollider2D>().enabled = false;
 
             Vector3 originalScale = barrel.transform.localScale;
@@ -111,7 +111,6 @@ namespace Ported_FFC.Monobehaviors
 
         private void OnDestroy()
         {
-            Destroy(hitEffect);
             Destroy(scope);
             Destroy(barrel2);
             Destroy(ammoPos);
@@ -120,6 +119,7 @@ namespace Ported_FFC.Monobehaviors
             weaponManager.icons[0] = oldIcon;
             oldIcon.SetActive(true);
             gun.transform.Find("Spring").Find("Ammo").transform.localPosition = new Vector3(0, 0, 0);
+            gun.ShootPojectileAction -= OnShootProjectileAction;
         }
     }
 

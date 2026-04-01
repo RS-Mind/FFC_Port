@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 114915464028787420}
   - component: {fileID: 114821519451648148}
   - component: {fileID: 114232824017258954}
+  - component: {fileID: 114623412600267338}
   m_Layer: 0
   m_Name: 12Gauge
   m_TagString: Untagged
@@ -319,6 +320,8 @@ MonoBehaviour:
   inactiveReloadTimeMultiplier: 0.5
   icon: {fileID: 1790492772407996393, guid: 7b174dfac9de4644493dec2d54533d85, type: 3}
   weaponName: 12-Gauge
+  ignoreSoundChanges: 0
+  disableBasicGun: 0
 --- !u!114 &114232824017258954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,3 +339,20 @@ MonoBehaviour:
   CategoryPath: Light Gunner
   categoryAsset: {fileID: 0}
   Priority: 0
+--- !u!114 &114623412600267338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a21637c3db6054eae68910e02d3209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  className: Light Gunner
+  ClassDefult: {r: 0.20784314, g: 0.76862746, b: 0.039215688, a: 1}
+  SubClassDefult: {r: 0.7, g: 0.33, b: 0.05, a: 1}
+  color1: {r: 0, g: 0, b: 0, a: 1}
+  color2: {r: 0, g: 0, b: 0, a: 1}
