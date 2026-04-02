@@ -25,6 +25,11 @@ namespace Ported_FFC.Cards.Juggernaut
             GameModeManager.AddHook(GameModeHooks.HookPointStart, (gm) => SyncOdds(GetComponentInParent<Player>().playerID));
         }
 
+        public void OnDestroy()
+        {
+            GameModeManager.RemoveHook(GameModeHooks.HookPointStart, (gm) => SyncOdds(GetComponentInParent<Player>().playerID));
+        }
+
         public IEnumerator SyncOdds(int playerID)
         {
             if (!PhotonNetwork.IsMasterClient) yield break;
