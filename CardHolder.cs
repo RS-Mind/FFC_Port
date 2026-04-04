@@ -15,6 +15,7 @@ namespace Ported_FFC
         {
             foreach (var Card in Cards)
             {
+                UnityEngine.Debug.LogWarning(Card.GetComponent<CardInfo>().cardName);
                 CustomCard.RegisterUnityCard(Card, PFFC.ModInitials, Card.GetComponent<CardInfo>().cardName, true, null);
                 CustomCardCategories.instance.UpdateAndPullCategoriesFromCard(Card.GetComponent<CardInfo>());
                 cards.Add(Card.GetComponent<CardInfo>().cardName, Card.GetComponent<CardInfo>());

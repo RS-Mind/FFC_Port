@@ -1,6 +1,6 @@
 {
   "name": "Port_of_FFC",
-  "version_number": "1.3.7",
+  "version_number": "1.3.9",
   "website_url": "https://github.com/Tess-y/FFC_Port/",
   "description": "A port of FluxxField's FFC (https://rounds.thunderstore.io/package/FluxxField/FFC/) to the new Classes Manger",
   "dependencies": [

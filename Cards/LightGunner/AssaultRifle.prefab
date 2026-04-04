@@ -54,7 +54,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: Assault Rifle
-  cardDestription: 'Press [Q/E] to change guns. While active:'
+  cardDestription: 'Press [Q/E] or [DPad Left/Right] to change guns. While active:'
   cardStats:
   - positive: 1
     amount: +2
