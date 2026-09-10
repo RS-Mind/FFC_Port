@@ -66,6 +66,7 @@ MonoBehaviour:
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
   categories:
   - {fileID: 11400000, guid: 0dc3fd495c193184f864bdebc2cae027, type: 2}
+  - {fileID: 11400000, guid: 49361be5dd4ab5543b9b093ea895d486, type: 2}
   allowMultiple: 1
   blacklistedCategories: []
   cardBase: {fileID: 1720757555582362, guid: ab7829e25091330408953c12456bfb86, type: 3}

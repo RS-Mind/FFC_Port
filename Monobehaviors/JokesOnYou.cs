@@ -34,6 +34,7 @@ namespace Ported_FFC.Patches
                         __instance.InvokeMethod("DestroyMe");
                     }
                     __instance.sinceReflect = 0f;
+                    __instance.GetComponent<RayHitReflect>().reflects -= 1;
                     return false;
                 }
             }
